@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title>syasha</title>
+    <script src="assets/js/portfolio.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
+    <link rel="shortcut icon" href="assets/img/crow.svg" type="image/x-icon">
+  </head>
+  <header>
+    <nav class="bar sticky-top">
+      <ul>
+        <li class="bar-item scale" onclick="scrollPage('intro')">
+          <a>this.syahril_shahiran</a>
+        </li>
+        <li class="bar-item scale" onclick="scrollPage('about')">
+          <a>.about</a>
+        </li>
+        <li class="bar-item scale" onclick="scrollPage('skills')">
+          <a>.skills</a>
+        </li>
+        <li class="bar-item scale"><a>.projects</a></li>
+        <li class="bar-item scale"><a>.contact</a></li>
+        <li onclick="toggleDark(this)" class="bar-item-right svg">
+          <img src="assets/img/moon.svg" />
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body class="light-mode">
+    <div id="intro" class="intro">
+      <div class="row">
+      <div class="col">
+      <div class="intro-img-container">
+        <img id="img-dark" class="intro-muhammad" src="assets/img/muhammad-word.svg" />
+      </div>
+      <div class="text"><h1 class="intro-title greeting">Syahril</h1></div>
+      <div class="text"><h1 class="intro-title greeting">Shahiran</h1></div>
+      
+        <li class="bar-social-item" >
+          <a class="bar-social-link" target="_blank"href="https://github.com/syahrilshahiran"><img  id="img-dark" class="bar-social-icon greeting" src="assets/img/github.svg"></a>
+        </li>
+        <li class="bar-social-item">
+          <a class="bar-social-link" target="_blank"href="https://linkedin.com/in/syahryzo"><img id="img-dark" class="bar-social-icon greeting" src="assets/img/linkedin.svg"></a>
+        </li>
+      
+    </div>
+      <div class="intro-me">
+      <img id="img-dark" class="intro-me-svg" src="assets/img/syahril.svg" />
+      </div>
+    </div>
+    </div>
+
+    <div id="about" class="about">
+      <h1 class="about-title"><strong>.about</strong></h1>
+      <p class="about-info">Front-end Developer</p>
+      <div>
+        <h3 class="about-education-title"><strong>0. Universiti Teknologi Mara</strong></h3>
+      <p class="about-education-info">Diploma in Computer Science <i class="about-education-year">2015-2018</i></p>
+      <p class="about-education-info">Degree in Intelligence System Engineering <i class="about-education-year">2018-2021</i></p>
+      </div>
+      <div>
+        <h3 class="about-education-title"><strong>1. TM Research & Development</strong></h3>
+      <p class="about-education-info">Data Analyst Intern <i class="about-education-year">2020</i></p>
+      
+      </div>
+      <div>
+        <h3 class="about-education-title"><strong>2. Feet's</strong></h3>
+      <p class="about-education-info">Web Developer <i class="about-education-year">2021- now</i></p>
+      
+      </div>
+      
+    </div>
+    <div id="skills" class="skills">
+      <div class="row">
+        <div class="col-1">
+          <label><strong>.skills[index].name</strong></label>
+          <div id="skills-contain" class="container">
+            <div class="row">
+              <div class="col">
+                <img id="img-dark" src="assets/img/html5.svg" />
+                <p class="skills-name">HTML</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/css3.svg" />
+                <p class="skills-name">CSS</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/javascript.svg" />
+                <p class="skills-name">JavaScript</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/typescript.svg" />
+                <p class="skills-name">TypeScript</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img id="img-dark" src="assets/img/php.svg" />
+                <p class="skills-name">PHP</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/python.svg" />
+                <p class="skills-name">Python</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/bootstrap.svg" />
+                <p class="skills-name">Bootstrap</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/angular.svg" />
+                <p class="skills-name">Angular</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <img id="img-dark" src="assets/img/mysql.svg" />
+                <p class="skills-name">MySQL</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/photoshop.svg" />
+                <p class="skills-name">Photoshop</p>
+              </div>
+              <div class="col">
+                <img id="img-dark" src="assets/img/illustrator.svg" />
+                <p class="skills-name">Illustrator</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <label><strong>.skills[index].info</strong></label>
+          <div class="container">
+            <ul>
+              <li class="skills-info">
+                During my diploma years, I created website project from scratch using <strong>HTML, CSS, PHP,</strong> and <strong>MySQL</strong>
+              </li class="skills-info">
+              <li class="skills-info">Creating poster during diploma years using <strong>Photoshop</strong> and <strong>Illustrator.</strong></li>
+              <li class="skills-info">During my degree years, I did a final year project on machine learning using <strong>Python</strong></li>
+              <li class="skills-info">
+                In my first company, I worked as a web developer, using <strong>Angular, Bootstrap, TypeScript,</strong> and <strong>JavaScript</strong>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper" >
+      <ul class="signature-ul" >
+        <li class="signature-li">
+          <img id="img-dark" class="signature" src="assets/img/butterfly.svg">
+        </li>
+        <li class="signature-li">
+          <img id="img-dark" class="signature" src="assets/img/crow.svg">
+        </li>
+        <li class="signature-li">
+          <img id="img-dark"class="signature" src="assets/img/cat.svg">
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
