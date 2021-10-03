@@ -220,12 +220,11 @@ h1 {
 }
 .wrapper{
   text-align: center;
-  
 }
 .signature-ul{
   list-style:none;
   display: inline-block;
-  padding:5rem;
+  padding:5rem 0rem 5rem 0rem;
 }
 .signature-li{
   display: inline-block;
