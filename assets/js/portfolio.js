@@ -74,7 +74,7 @@ window.addEventListener("scroll", function () {
 // observer.observe(document.getElementById('contact'));
 // observer.observe(document.getElementById('project'));
 const sr = ScrollReveal({
-  distance: '60px',
+  distance: '100px',
   duration: 1500,
   delay: 300,
   // reset: true
@@ -83,3 +83,4 @@ sr.reveal('.about')
 sr.reveal('.skills')
 sr.reveal('.contact')
 sr.reveal('.project')
+sr.reveal('.art')
